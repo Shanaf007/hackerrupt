@@ -1,81 +1,81 @@
 var quiz = {
 "JS": [
 {
-"id": 1,
-"question": "Bobbili veena, also known as Saraswathi Veena or the Ekanda Veena, is a large plucked string instrument used in Carnatic classical music. It is made from which of the following trees?",
-"options": [
-{
-"a": "Sandalwood",
-"b": "Jackwood",
-"c": "bamboo",
-"d": "Rosewood"
-}
-],
-"answer": "Jackwood",
-"score": 0,
-"status": ""
-},
-{
-"id": 2,
-"question": "Which of the following is not a classical dance of India?",
-"options": [
-{
-"a": "Kathak",
-"b": "Sattriya",
-"c": "Manipuri",
-"d": "Bhangra"
-}
-],
-"answer": "Bhangra",
-"score": 0,
-"status": ""
-},
-{
-"id": 3,
-"question": "The leaning temple of Huma is dedicated to which Hindu god?",
-"options": [
-{
-"a": "Shiva",
-"b": "Rama",
-"c": "Hanuman",
-"d": "Krishna"
-}
-],
-"answer": "Shiva",
-"score": 0,
-"status": ""
-},
-{
-"id": 4,
-"question": "Who among the following has written the famous Bangla book “Agni Vina”?",
-"options": [
-{
-"a": "Rabindra Nath Tagore",
-"b": "Kazi Nazrul Islam",
-"c": "Bankim Chandra Chattopadhyay",
-"d": "Sarat Chandra Chattopadhyay"
-}
-],
-"answer": "Kazi Nazrul Islam",
-"score": 0,
-"status": ""
-},
-{
-"id": 5,
-"question": "In which of the famous temple of Tamil Nadu, Shiva is worshipped as “Natraja”?",
-"options": [
-{
-"a": "Madurai",
-"b": "Tanjavur",
-"c": "Chidambaram",
-"d": "None of the above",
-}
-],
-"answer": "Chidambaram",
-"score": 0,
-"status": ""
-},
-{
+  "id": 1,
+  "question": "Bobbili veena, also known as Saraswathi Veena or the Ekanda Veena, is a large plucked string instrument used in Carnatic classical music. It is made from which of the following trees?",
+  "options": [
+  {
+  "a": "Sandalwood",
+  "b": "Jackwood",
+  "c": "bamboo",
+  "d": "Rosewood"
+  }
+  ],
+  "answer": "Jackwood",
+  "score": 0,
+  "status": ""
+  },
+  {
+  "id": 2,
+  "question": "Which of the following is not a classical dance of India?",
+  "options": [
+  {
+  "a": "Kathak",
+  "b": "Sattriya",
+  "c": "Manipuri",
+  "d": "Bhangra"
+  }
+  ],
+  "answer": "Bhangra",
+  "score": 0,
+  "status": ""
+  },
+  {
+  "id": 3,
+  "question": "The leaning temple of Huma is dedicated to which Hindu god?",
+  "options": [
+  {
+  "a": "Shiva",
+  "b": "Rama",
+  "c": "Hanuman",
+  "d": "Krishna"
+  }
+  ],
+  "answer": "Shiva",
+  "score": 0,
+  "status": ""
+  },
+  {
+  "id": 4,
+  "question": "Who among the following has written the famous Bangla book “Agni Vina”?",
+  "options": [
+  {
+  "a": "Rabindra Nath Tagore",
+  "b": "Kazi Nazrul Islam",
+  "c": "Bankim Chandra Chattopadhyay",
+  "d": "Sarat Chandra Chattopadhyay"
+  }
+  ],
+  "answer": "Kazi Nazrul Islam",
+  "score": 0,
+  "status": ""
+  },
+  {
+  "id": 5,
+  "question": "In which of the famous temple of Tamil Nadu, Shiva is worshipped as “Natraja”?",
+  "options": [
+  {
+  "a": "Madurai",
+  "b": "Tanjavur",
+  "c": "Chidambaram",
+  "d": "None of the above",
+  }
+  ],
+  "answer": "Chidambaram",
+  "score": 0,
+  "status": ""
+  },
+  {
 "id": 6,
 "question": "Dr M Balmuralikrishna was a renowned artist of ______?",
 "options": [
@@ -90,8 +90,6 @@ var quiz = {
 "score": 0,
 "status": ""
 },
-
-}
 ]
 }
 var quizApp = function () {

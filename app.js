@@ -128,7 +128,7 @@ $('#next').attr('disabled', true);
 for (var i = 0; i < totalque; i++) {
 this.score = this.score + quiz.JS[i].score;
 }
-return this.Evaluate(this.score);
+return this.showResult(this.score);
 }
 }
 this.showResult = function (scr) {

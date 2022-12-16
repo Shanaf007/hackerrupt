@@ -2,90 +2,96 @@ var quiz = {
 "JS": [
 {
 "id": 1,
-"question": "Inside which HTML element do we put the JavaScript?",
+"question": "Bobbili veena, also known as Saraswathi Veena or the Ekanda Veena, is a large plucked string instrument used in Carnatic classical music. It is made from which of the following trees?",
 "options": [
 {
-"a": "&lt;script&gt;",
-"b": "&lt;javascript&gt;",
-"c": "&lt;scripting&gt;",
-"d": "&lt;js&gt;"
+"a": "Sandalwood",
+"b": "Jackwood",
+"c": "bamboo",
+"d": "Rosewood"
 }
 ],
-"answer": "&lt;script&gt;",
+"answer": "Jackwood",
 "score": 0,
 "status": ""
 },
 {
 "id": 2,
-"question": "Where is the correct place to insert a JavaScript?",
+"question": "Which of the following is not a classical dance of India?",
 "options": [
 {
-"a": "The &lt;head&gt; section",
-"b": "The &lt;body&gt; section",
-"c": "Both the &lt;head&gt; section and the &lt;body&gt; section are correct"
+"a": "Kathak",
+"b": "Sattriya",
+"c": "Manipuri",
+"d": "Bhangra"
 }
 ],
-"answer": "Both the &lt;head&gt; section and the &lt;body&gt; section are correct",
+"answer": "Bhangra",
 "score": 0,
 "status": ""
 },
 {
 "id": 3,
-"question": "What is the correct syntax for referring to an external script called 'xxx.js'?",
+"question": "The leaning temple of Huma is dedicated to which Hindu god?",
 "options": [
 {
-"a": "&ltscript href=&quot;xxx.js&quot;>",
-"b": "&lt;script name=&quot;xxx.js&quot;&gt;",
-"c": "&lt;script src=&quot;xxx.js&quot;&gt;"
+"a": "Shiva",
+"b": "Rama",
+"c": "Hanuman",
+"d": "Krishna"
 }
 ],
-"answer": "&lt;script src=&quot;xxx.js&quot;&gt;",
+"answer": "Shiva",
 "score": 0,
 "status": ""
 },
 {
 "id": 4,
-"question": "The external JavaScript file must contain the &lt;script&gt; tag.",
+"question": "Who among the following has written the famous Bangla book “Agni Vina”?",
 "options": [
 {
-"a": "True",
-"b": "False"
+"a": "Rabindra Nath Tagore",
+"b": "Kazi Nazrul Islam",
+"c": "Bankim Chandra Chattopadhyay",
+"d": "Sarat Chandra Chattopadhyay"
 }
 ],
-"answer": "False",
+"answer": "Kazi Nazrul Islam",
 "score": 0,
 "status": ""
 },
 {
 "id": 5,
-"question": "How do you write &quot;Hello World&quot; in an alert box?",
+"question": "In which of the famous temple of Tamil Nadu, Shiva is worshipped as “Natraja”?",
 "options": [
 {
-"a": "alertBox(&quot;Hello World&quot;);",
-"b": "msg(&quot;Hello World&quot;);",
-"c": "alert(&quot;Hello World&quot;);",
-"d": "msgBox(&quot;Hello World&quot;);",
+"a": "Madurai",
+"b": "Tanjavur",
+"c": "Chidambaram",
+"d": "None of the above",
 }
 ],
-"answer": "alert(&quot;Hello World&quot;);",
+"answer": "Chidambaram",
 "score": 0,
 "status": ""
 },
 {
 "id": 6,
-"question": "How do you create a function in JavaScript?",
+"question": "Dr M Balmuralikrishna was a renowned artist of ______?",
 "options": [
 {
-"a": "function myFunction()",
-"b": "function:myFunction()",
-"c": "function = myFunction()",
+"a": "Hindustani Vocal",
+"b": "Carnatic Vocal",
+"c": "Dhrupad Style",
+"d": "Carnatic Instrumental"
 }
 ],
-"answer": "function myFunction()",
+"answer": "Carnatic Vocal",
 "score": 0,
 "status": ""
 },
 
+}
 ]
 }
 var quizApp = function () {
@@ -122,7 +128,7 @@ $('#next').attr('disabled', true);
 for (var i = 0; i < totalque; i++) {
 this.score = this.score + quiz.JS[i].score;
 }
-return this.showResult(this.score);
+return this.Evaluate(this.score);
 }
 }
 this.showResult = function (scr) {

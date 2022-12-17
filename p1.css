@@ -1,0 +1,51 @@
+.cuisines{
+  width:100px
+}
+
+.hero{
+  width: 100%;
+  height:100vh;
+  position:bottom;
+  padding:5%;
+  display: flex;
+  align-items:baseline;
+  justify-content:flex-start;
+}
+.space{
+  position:fixed;
+  margin-top:350px;
+  margin-left:50px;
+
+}
+.back-video{
+  position:fixed;
+  right:0;
+  bottom:0;
+  z-index:-1;
+}
+@media (min-aspect-ratio:16/9) {
+  .back-video{
+    width:100%;
+    height:auto;
+  }
+
+}
+
+@media (max-aspect-ratio:16/9) {
+  .back-video{
+    width:100%;
+    height:auto;
+  }
+
+}
+.content h1{
+  font-size: 50px;
+  color:#fff;
+  font-weight: 600;
+}
+.space2{
+  position:fixed;
+  margin-top:50px;
+  margin-left:50px;
+
+}

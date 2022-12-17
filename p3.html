@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <style media="screen" >
+    body{
+      background-image:url('menu1.jpeg');
+      background-position:fixed;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    p,ul,h1{
+
+      font-size:50px;
+      text-align:center;
+    }
+
+    </style>
+    <meta charset="utf-8">
+    <title></title>
+    <script type="text/javascript">
+      function show(){
+        var button = document.getElementById("button");
+        var select = document.getElementById("select");
+        var basket = document.getElementById("basket");
+
+
+          var li = document.createElement("li");
+          li.innerHTML = select.options[select.selectedIndex].text;
+          basket.appendChild(li);
+
+
+      }
+
+
+
+
+    </script>
+  </head>
+  <body>
+
+
+<body>
+  <div>
+  <h1>Select your items!</h1>
+
+  <form id="myForm" >
+
+
+    <p>Item:
+      <select id="select">
+
+        <option value="1">DOSA</option>
+        <option value="2">IDLY</option>
+        <option value="3">UPMA</option>
+        <option value="4">PONGAL</option>
+        <option value="5">BISIBELEBATH</option>
+
+      </select>
+
+      <button id="button" type="button" onclick="show()">+</button></p>
+
+  </form>
+
+  <h1>Basket</h1>
+
+  <ul id="basket"></ul>
+</div>
+</body>
+</html>
